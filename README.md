@@ -1,6 +1,6 @@
 # Odyssey Flight Checker [ReactJS, ExpressJS, MongoDB, NodeJS, Tailwind CSS]
 
-This is an Odyssey Flight Checker application designed for easy and efficient flight information retrieval. The application helps users find and track flight details with ease.
+This is an Odyssey Flight Checker application designed for easy and efficient flight information retrieval. The responsive web-application helps users find and track flight details with ease.
 
 **Disclaimer**: Please use `npm install` to install dependencies and `npm run dev` to run the application.
 
