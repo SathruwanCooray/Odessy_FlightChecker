@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #000300;
+}
+
+.background-circle-1 {
+  position: fixed;
+  top: 0%; /* Adjust as needed for positioning */
+  left: 60%; /* Adjust as needed for positioning */
+  width: 70%; /* Adjust as needed for sizing */
+  height: 60%; /* Adjust as needed for sizing */
+  background-color: rgba(255, 0, 128, 1); /* Adjust opacity and color */
+  border-radius: 100%; /* Create a circle */
+  filter: blur(500px); /* Apply blur effect */
+  z-index: -1; /* Ensure it's behind other content */
+}
+
+.background-circle-2 {
+  position: fixed;
+  top: 0%; /* Adjust as needed for positioning */
+  left: 0%; /* Adjust as needed for positioning */
+  width: 40%; /* Adjust as needed for sizing */
+  height: 20%; /* Adjust as needed for sizing */
+  background-color: rgb(221, 0, 255,1); /* Adjust opacity and color */
+  border-radius: 100%; /* Create a circle */
+  filter: blur(300px); /* Apply blur effect */
+  z-index: -1; /* Ensure it's behind other content */
+}
